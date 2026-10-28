@@ -1,0 +1,54 @@
+#include <stdio.h>
+int main(){
+puts("OPERATORS IN C");
+puts("Operators are special symbols that perform operations on variables and values.");
+puts("");
+puts("Arithmetic operators:");
+puts("    +  Addition: adds two values. Example: 7 + 3 = 10");
+puts("    -  Subtraction: subtracts one value from another. Example: 9 - 4 = 5");
+puts("    *  Multiplication: multiplies two values. Example: 6 * 5 = 30");
+puts("    /  Division: divides one value by another. Example: 20 / 4 = 5");
+puts("    %  Modulus: gives the remainder. Example: 17 % 5 = 2");
+puts("");
+puts("Assignment operators:");
+puts("    =   Assign: stores a value in a variable. Example: x = 10;");
+puts("    +=  Add and assign: x += 5 means x = x + 5. Example: x = 8; x += 5; // x becomes 13");
+puts("    -=  Subtract and assign: x -= 3 means x = x - 3. Example: x = 12; x -= 3; // x becomes 9");
+puts("    *=  Multiply and assign: x *= 2 means x = x * 2. Example: x = 4; x *= 2; // x becomes 8");
+puts("    /=  Divide and assign: x /= 2 means x = x / 2. Example: x = 18; x /= 2; // x becomes 9");
+puts("    %=  Modulus and assign: x %= 4 means x = x % 4. Example: x = 15; x %= 4; // x becomes 3");
+puts("");
+puts("Comparison operators:");
+puts("    ==  Equal to: checks if two values are the same. Example: 5 == 5 is true");
+puts("    !=  Not equal to: checks if two values are different. Example: 5 != 3 is true");
+puts("    >   Greater than: checks if left value is larger. Example: 8 > 3 is true");
+puts("    <   Less than: checks if left value is smaller. Example: 2 < 6 is true");
+puts("    >=  Greater than or equal to: Example: 10 >= 10 is true");
+puts("    <=  Less than or equal to: Example: 4 <= 7 is true");
+puts("");
+puts("Logical operators:");
+puts("    &&  Logical AND: true only if both conditions are true. Example: (5 > 3 && 2 < 9) is true");
+puts("    ||  Logical OR: true if at least one condition is true. Example: (5 < 3 || 2 < 9) is true");
+puts("    !   Logical NOT: reverses the truth value. Example: !(5 > 3) is false");
+puts("");
+puts("Bitwise operators:");
+puts("    &   Bitwise AND: compares bits and keeps 1s where both have 1. Example: 5 & 3 = 1");
+puts("    |   Bitwise OR: compares bits and keeps 1s where either has 1. Example: 5 | 3 = 7");
+puts("    ^   Bitwise XOR: keeps 1s where bits differ. Example: 5 ^ 3 = 6");
+puts("    ~   Bitwise NOT: inverts all bits. Example: ~5 = -6");
+puts("    <<  Left shift: shifts bits left by a number of positions. Example: 3 << 2 = 12");
+puts("    >>  Right shift: shifts bits right by a number of positions. Example: 12 >> 2 = 3");
+puts("");
+puts("Other operators:");
+puts("    sizeof()  Returns the size of a variable or data type. Example: sizeof(int) gives 4 on many systems");
+puts("    &         Address of: gives the memory address of a variable. Example: &x");
+puts("    *         Pointer dereference: accesses the value at a pointer address. Example: *ptr");
+puts("    ?:        Ternary conditional operator: short form of if-else. Example: (a > b) ? a : b");
+puts("    ,         Comma operator: evaluates expressions one by one. Example: a = (x = 5, x + 2)");
+puts("");
+puts("Tips:");
+puts("- Use operators to perform calculations and manipulate data.");
+puts("- Be aware of operator precedence and associativity to avoid unexpected results.");
+
+    return 0;
+}
