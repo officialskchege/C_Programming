@@ -9,6 +9,8 @@ puts("    -  Subtraction: subtracts one value from another. Example: 9 - 4 = 5")
 puts("    *  Multiplication: multiplies two values. Example: 6 * 5 = 30");
 puts("    /  Division: divides one value by another. Example: 20 / 4 = 5");
 puts("    %  Modulus: gives the remainder. Example: 17 % 5 = 2");
+puts("    ++ Increment: increases a variable by 1. Example: x = 5; x++; // x becomes 6");
+puts("    -- Decrement: decreases a variable by 1. Example: x = 5; x--; // x becomes 4");
 puts("");
 puts("Assignment operators:");
 puts("    =   Assign: stores a value in a variable. Example: x = 10;");
