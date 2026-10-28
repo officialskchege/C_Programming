@@ -25,6 +25,14 @@ int main(){
            "The difference between them is that double has a larger range and precision than float.\n"
            "Double uses 8 bytes of memory while float uses 4 bytes of memory.\n"
            "This makes double more suitable for exponentiation operations.\n");
-
+    puts("");
+    printf("QUIZ:\n");
+    puts("Write a C program that does the following:");
+    puts("1. Declare a float variable and a double variable.");
+    puts("2. Store 3.14 in the float and 6.28 in the double.");
+    puts("3. Declare another double and initialize it with the exponential value 2.5e3.");
+    puts("4. Print all three values, then print each rounded to 2 decimal places.");
+    puts("5. Use the correct format specifier for each variable.");
+    
     return 0;
 }
