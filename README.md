@@ -10,6 +10,7 @@ A collection of beginner-friendly C programs that introduce core language concep
 | [IO.c](./IO.c) | Reading input with `scanf` and displaying output with `printf` and `puts` |
 | [character.c](./character.c) | Character values and displaying character codes in different number formats |
 | [operators.c](./operators.c) | Arithmetic, assignment, comparison, logical, bitwise, and other operators |
+| [boolean.c](./boolean.c) | Boolean values, comparisons, and logical operators (`&&`, `||`, and `!`) |
 | [floatanddouble.c](./floatanddouble.c) | `float` and `double`, decimal formatting, and scientific notation |
 | [explicitTypeConversion.c](./explicitTypeConversion.c) | Explicit casts and conversions between data types |
 
@@ -33,4 +34,4 @@ The `IO.c` lesson prompts for input. Follow the prompts in the terminal when run
 
 ## Suggested learning order
 
-Start with comments and input/output, then explore characters and operators. Continue with floating-point numbers and finish with explicit type conversion. Several lessons include tips or a coding exercise to practice the concepts.
+Start with comments and input/output, then explore characters, operators, and boolean logic. Continue with floating-point numbers and finish with explicit type conversion. Several lessons include tips or a coding exercise to practice the concepts.
